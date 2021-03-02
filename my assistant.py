@@ -8,10 +8,10 @@ engine=pyttsx3.init()
 def bolo(text):
     engine.say(text)
 
-if 'kemon aso' in a:
+if 'কেমন আছ' in a:
     text='I am fine'
     bolo(text)
-if 'ki khobor' in a:
-    text='Too good'
+if 'কি খবর' in a:
+    text='Not bad'
     bolo(text)
 engine.runAndWait()
